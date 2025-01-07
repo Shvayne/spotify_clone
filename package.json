@@ -1,0 +1,21 @@
+{
+  "name": "spotify_clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shvayne/spotify_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shvayne/spotify_clone/issues"
+  },
+  "homepage": "https://github.com/Shvayne/spotify_clone#readme",
+  "description": ""
+}
