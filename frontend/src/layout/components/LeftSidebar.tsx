@@ -64,11 +64,11 @@ const LeftSidebar = () => {
             {isLoading ? (
               <PlaylistSkeletons />
             ) : (albums.map((album) => (
-              <Link to={`albums/${album._id}`}
+              <Link to={`/albums/${album._id}`}
               key={album._id}
               className="p-2 hover:bg-zinc-800 rounded-md flex items-center gap-3 group cursor-pointer"
               >
-                <img src={album.image} className="size-12 rounded-md flex-shrink-0 object-cover" alt="album cover" />
+                <img src={album.imageUrl} className="size-12 rounded-md flex-shrink-0 object-cover" alt="album cover" />
                 <div className="flex-1 min-w-0 hidden md:block">
                   <p className="font-medium truncate">{album.title}</p>
                   <p className="text-sm text-zinc-400 truncate">Album • {album.artist}</p>
